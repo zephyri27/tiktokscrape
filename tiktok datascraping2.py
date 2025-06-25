@@ -9,7 +9,7 @@ import pandas as pd
 
 data = []
 
-service = Service(r"C:\Users\dsvan\Downloads\edgedriver_win64\msedgedriver.exe")
+service = Service(r"____edge driver_____")
 driver = webdriver.Edge(service=service)
 driver.get("https://www.tiktok.com")
 time.sleep(5)
@@ -79,6 +79,6 @@ driver.quit()
 df = pd.DataFrame(data)
 print(df)
 df.index += 1
-excel_file_path = r"C:\Users\dsvan\OneDrive\Desktop\Anish\School\1st year\yv databases\tiktokdata3.xlsx"
+excel_file_path = r"__________________________________________"
 df.to_excel(excel_file_path, index=False)
 print(f"Data saved to {excel_file_path}")
