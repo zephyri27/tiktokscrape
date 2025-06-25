@@ -8,7 +8,7 @@ import pandas as pd
 
 data = []
 
-service = Service(r"C:\Users\dsvan\Downloads\edgedriver_win64 (1)\msedgedriver.exe")
+service = Service(r"_______edge driver________")
 driver = webdriver.Edge(service=service)
 driver.get("https://bsky.app")
 time.sleep(5)
