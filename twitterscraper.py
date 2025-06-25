@@ -135,7 +135,7 @@ print(tweets_df)
 df = pd.DataFrame(tweets_df)
 print(df)
 df.index += 1
-excel_file_path = r"C:\Users\dsvan\OneDrive\Desktop\Anish\School\1st year\yv databases\twtrightdataset.xlsx"
+excel_file_path = r"_______________"
 df.to_excel(excel_file_path, index=False)
 print(f"Data saved to {excel_file_path}")
 
