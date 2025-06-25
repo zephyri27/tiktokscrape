@@ -81,9 +81,9 @@ for counter in range(countno):
 print(bskydf)
 
 
-df = pd.DataFrame(bskydf)  # Convert the list of dictionaries into a DataFrame
+df = pd.DataFrame(bskydf)
 print(df)
-df.index += 1  # Start the index at 1 to match Excel row numbers
-excel_file_path = r"C:\Users\dsvan\OneDrive\Desktop\Anish\School\1st year\yv databases\bskypoliticallyactivedb.xlsx"
+df.index += 1 
+excel_file_path = r"____________________________________"
 df.to_excel(excel_file_path, index=False)
 print(f"Data saved to {excel_file_path}")
