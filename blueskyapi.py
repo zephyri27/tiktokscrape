@@ -13,8 +13,8 @@ driver = webdriver.Edge(service=service)
 driver.get("https://bsky.app")
 time.sleep(5)
 
-username = "finaltester"
-password = "firefly!!"
+username = "user"
+password = "password"
 
 driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div/div/div/nav/div/div[2]/button[2]').click()
 time.sleep(2)
