@@ -22,9 +22,9 @@ options.add_argument("--disable-save-password-bubble")
 driver = webdriver.Chrome(options=options)
 driver.get("https://accounts.google.com/v3/signin/identifier?hl=en_GB&ifkv=AXo7B7VGP4Y_gNfwPri72zV40Ii9kmgYbvLRXoOhOeBNkeBYcMPcPOX_Aolo1vK16FetaA4URMIfUA&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1140670556%3A1692882589574310")
 #email:
-email = 'anishtesterfinalright@gmail.com'
+email = 'email'
 #password:
-password = 'firefly!!'
+password = 'password'
 
 #LOGIN
 driver.find_element(By.XPATH,'//*[@id="identifierId"]').send_keys(email)
